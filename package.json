@@ -1,14 +1,17 @@
 {
-  "name": "heroku-deploy",
+  "name": "node-tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node Js Tutorial",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "",
+  "author": "Daily Code Buffer",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "@hapi/joi": "^17.1.1",
+    "debug": "4.1.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
   }
 }
